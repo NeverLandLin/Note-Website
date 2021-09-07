@@ -330,6 +330,7 @@ const NoteIndex = ({ memberName, isLogin }) => {
       </div>
 
       {/*only for the teacher and TAs test*/}
+      {/*
       {isLogin === "notLogin" ? (
         <></>
       ) : (
@@ -340,7 +341,7 @@ const NoteIndex = ({ memberName, isLogin }) => {
           <Button onClick={reset_money}>重置成 0</Button>
         </div>
       )}
-
+      */}
       {/*only for test scrolling*/}
       {/*
         <div className="test">
